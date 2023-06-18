@@ -14,13 +14,12 @@
 
 .main-content {
     max-width: 120rem;
-    padding: var(--gap);
+    padding: 10rem var(--gap);
 }
 
 
 .section {
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
 }
