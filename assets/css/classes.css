@@ -5,6 +5,7 @@
     background-position: center center;
     color: var(--white-color);
     margin-top: 3.5EM;
+    color: var(--light-gray-color);
 }
 
 .white-bg {
@@ -26,4 +27,9 @@
 
 .menu-spacing {
     height: 65px;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
 }
