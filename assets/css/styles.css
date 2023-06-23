@@ -170,6 +170,22 @@
     display: none;
   }
 
+  .back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: purple;
+    transform: rotate(-90deg);
+    border: 0.1rem solid rgb(89, 12, 89);
+  }
+
 @media (max-width: 800px) {
     .intro-content, .grid{
         grid-template-columns: 1fr;
@@ -229,10 +245,6 @@
 
       .close-menu:checked~.close-menu-label::after {
         content: '×';
-      }
-
-      .menu-spacing {
-        
       }
 }
 
